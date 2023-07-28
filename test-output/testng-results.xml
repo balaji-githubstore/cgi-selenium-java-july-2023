@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-28T14:44:36 IST" name="Default suite" finished-at="2023-07-28T14:44:51 IST" duration-ms="14418">
+    <groups>
+      <group name="UI">
+        <method signature="LoginUITest.TitleTest()[pri:0, instance:com.cgi.test.LoginUITest@19e4653c]" name="TitleTest" class="com.cgi.test.LoginUITest"/>
+        <method signature="LoginUITest.headerTest()[pri:0, instance:com.cgi.test.LoginUITest@19e4653c]" name="headerTest" class="com.cgi.test.LoginUITest"/>
+      </group> <!-- UI -->
+      <group name="smoke">
+        <method signature="LoginUITest.TitleTest()[pri:0, instance:com.cgi.test.LoginUITest@19e4653c]" name="TitleTest" class="com.cgi.test.LoginUITest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-07-28T14:44:36 IST" name="Default test" finished-at="2023-07-28T14:44:51 IST" duration-ms="14418">
+      <class name="com.cgi.test.LoginUITest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.cgi.test.LoginUITest@19e4653c]" started-at="2023-07-28T14:44:36 IST" name="init" finished-at="2023-07-28T14:44:36 IST" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.cgi.test.LoginUITest@19e4653c]" started-at="2023-07-28T14:44:36 IST" name="setup" finished-at="2023-07-28T14:44:44 IST" duration-ms="7440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.cgi.test.LoginUITest.TitleTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TitleTest()[pri:0, instance:com.cgi.test.LoginUITest@19e4653c]" started-at="2023-07-28T14:44:44 IST" name="TitleTest" finished-at="2023-07-28T14:44:44 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleTest -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.cgi.test.LoginUITest@19e4653c]" started-at="2023-07-28T14:44:44 IST" name="teardown" finished-at="2023-07-28T14:44:44 IST" duration-ms="332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TitleTest status=SUCCESS method=LoginUITest.TitleTest()[pri:0, instance:com.cgi.test.LoginUITest@19e4653c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.reflect.Method)[pri:0, instance:com.cgi.test.LoginUITest@19e4653c]" started-at="2023-07-28T14:44:44 IST" name="setup" finished-at="2023-07-28T14:44:50 IST" duration-ms="5581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.cgi.test.LoginUITest.headerTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="headerTest()[pri:0, instance:com.cgi.test.LoginUITest@19e4653c]" started-at="2023-07-28T14:44:50 IST" name="headerTest" finished-at="2023-07-28T14:44:50 IST" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerTest -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.cgi.test.LoginUITest@19e4653c]" started-at="2023-07-28T14:44:50 IST" name="teardown" finished-at="2023-07-28T14:44:51 IST" duration-ms="489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=headerTest status=SUCCESS method=LoginUITest.headerTest()[pri:0, instance:com.cgi.test.LoginUITest@19e4653c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="end()[pri:0, instance:com.cgi.test.LoginUITest@19e4653c]" started-at="2023-07-28T14:44:51 IST" name="end" finished-at="2023-07-28T14:44:51 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.cgi.test.LoginUITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
